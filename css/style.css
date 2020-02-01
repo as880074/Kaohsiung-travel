@@ -1,0 +1,220 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+[hidden] {
+  display: none;
+}
+.header{
+  height: 380px;
+  background-size:cover;
+  text-align:center;
+  background-image: url(../img/Hero.png);
+}
+
+.title{
+   padding-top: 89px;
+}
+.title h1{
+  margin: 0 auto;
+  font-family: PingFangTC-Regular;
+  font-size: 40px;
+  color: #FFFFFF;
+  letter-spacing: 3.89px;
+}
+.YourLocation{
+  height: 48px;
+  width: 452px;
+  background: rgba(255,255,255,0.70);
+  border: 3px solid #FFFFFF;
+  border-radius: 3px;
+  margin-top: 96px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.tag{
+  top: 352px;
+  margin: 79px auto;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-left: 26px;
+  height: 112px;
+  width: 800px;
+  background: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+  border-radius: 5px;
+}
+
+.hot{
+  margin-bottom: 14px;
+  font-family: AppleSystemUIFont;
+  font-size: 18px;
+  color: #000000;
+}
+.hottag
+{
+  float: left;
+  margin-left: 51px;
+  width: 130px;
+  height: 42px;
+  border-radius: 5px;
+}
+.hottag p
+{
+  padding-top: 11px;
+  font-family: "PingFangTC-Regular";
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.floor{
+  height: 90px;
+  margin-top: 41px;
+  background: #559AC8;
+}
+.zi_hr_01 {
+  margin-top: 49px;
+  background-image: url(../img/icons_down.png);
+  background-color: transparent !important ; /* 顏色透明 */
+  border: 1px dashed #559AC8;
+  width: 900px;
+  }
+  .iconDown{
+    margin-top: -20px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius:999em;
+    background-color: aliceblue;
+    border:#559AC8 solid 1px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .iconDown img{
+    margin-top: 7px;
+    margin-left: -73px;
+    filter:drop-shadow(36px 0 #559AC8);
+  }
+  .clear{
+     clear: both; 
+    }
+  .countain{
+    margin-top: 210px;
+   
+  }
+  .countain h2{
+    margin-bottom: 24px;
+    text-align:center;
+    font-family: "SFNSDisplay";
+    font-size: 36px;
+    color: #8A82CC;
+  }
+  .cardHead{
+    background-image: url(http://khh.travel/FileArtPic.ashx?id=705&w=1280&h=960);
+    background-size:100%;
+    width:  464px;
+    height: 155px;
+    position: relative;
+  }
+  .cardTitle{
+    font-family: SFNSDisplay;
+    font-size: 24px;
+    top: 117px;
+    position: relative;
+    display:inline-block;
+    color: #FFFFFF;
+  }
+  .district{
+    font-family:PingFangTC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    bottom: 11px;
+    right: 24px;
+    position: absolute;
+    display:inline-block;
+  }
+  .cardList
+  {
+      width:960px;
+      margin:10px auto;
+  }
+  .card{
+    float: left;
+    margin-top: 36px;
+    margin-left: 16px;
+    height:273px;
+    width: 464px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+  }
+  .cardHead{
+    align-items:center;
+    background-position: center;
+  }
+  .cardContain{
+    position: relative;
+  }
+  .cardContain ul{
+    margin-top: 16px;
+    margin-left: 23px;
+  }
+  .cardContain ul img{
+      margin:0px 4px;
+  }
+  .cardContain li{
+    margin-top: 5px;
+    font-family: AppleSystemUIFont;
+    background: #FFFFFF;
+
+  }
+  .free{
+    font-family: PingFangTC-Regular;
+    font-size: 16px;
+    right: 8px;
+    bottom: 2px;
+    color: #000000;
+    position: absolute;
+  }
